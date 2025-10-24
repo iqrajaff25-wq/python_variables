@@ -38,5 +38,5 @@ average_expense_per_member = total_expenses / total_members
 print(f"AVERAGE EXPENSE PER MEMBER = {average_expense_per_member}")
 saving_per_member = total_savings / total_members
 print(f"SAVING PER MEMBER = {saving_per_member}")
-percentage_of_saving = total_savings / total_income * 100
+percentage_of_saving = total_savings // total_income * 100
 print(f"PERCENTAGE OF SAVINGS = {percentage_of_saving}%")
