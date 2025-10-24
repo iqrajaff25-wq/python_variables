@@ -13,8 +13,9 @@ other_income = int(input("Enter Other Income: "))
 total_income = father_income + mother_income + side_business_income + other_income
 print(f'TOTAL INCOME = {total_income}')
 
-# #Expenses Detail
-print('''ENTER EXPENDITURE DETAILS;
+#Expenses Detail
+print('''
+ENTER EXPENDITURE DETAILS;
 ------------------------''')
 house_rent = int(input("Enter house rent: "))
 utilities = int(input("Enter Utilities: "))
@@ -38,5 +39,5 @@ average_expense_per_member = total_expenses / total_members
 print(f"AVERAGE EXPENSE PER MEMBER = {average_expense_per_member}")
 saving_per_member = total_savings / total_members
 print(f"SAVING PER MEMBER = {saving_per_member}")
-percentage_of_saving = total_savings // total_income * 100
+percentage_of_saving = total_savings / total_income * 100
 print(f"PERCENTAGE OF SAVINGS = {percentage_of_saving}%")
