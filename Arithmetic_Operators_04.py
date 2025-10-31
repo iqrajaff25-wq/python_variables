@@ -48,3 +48,6 @@ print(f"The Modulus of {mod1} by {mod2} is {modulus}")
 expo1 = 10
 expo2 = 2
 exponentation = expo1 ** expo2
+print(f"Exponentation {expo1} ^ {expo2} = {exponentation}")
+print(f"Exponentation {expo1} ^ {2} = {exponentation}")
+
