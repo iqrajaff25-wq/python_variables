@@ -1,10 +1,10 @@
 # If-Else Statements
 
-# var = int(input("Enter the number : "))
-# if var == 10:
-#     print("Code Entered")
-# else:
-#     print("Enter the correct code!")
+var = int(input("Enter the number : "))
+if var == 10:
+    print("Code Entered")
+else:
+    print("Enter the correct code!")
 
 
 #Calculate Discount
