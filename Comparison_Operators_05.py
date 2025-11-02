@@ -42,3 +42,17 @@ if age >= 18 and age <= 65:
     print("You are eligible for entry test")
 else:
     print("You are not eligible!")
+
+
+#OR Operator
+if age >= 16 or age <= 50:
+    print(f"You are not eligible for this entry")
+else:
+    print("You are eligible for the test")
+
+
+#NOT Operator
+if not (num1 != num2):
+    print("The statement is false!")
+else:
+    print("The statement is true")
