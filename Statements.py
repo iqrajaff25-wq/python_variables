@@ -16,18 +16,18 @@ price2 = price - dis2
 dis3 = price * 0.30
 price3 = price - dis3
 final_price = price * 0.50
-cupon = int(input("Enter the cupon code: "))
-if cupon <= 9230:
+coupon = int(input("Enter the coupon code: "))
+if coupon <= 9230:
     print("Invalid Number Entered")
-elif cupon <= 9250 and cupon >= 9230:
+elif coupon <= 9250 and coupon >= 9230:
     print("10% discount is allowed")
     print(f"Payable Amount with 10% Discount = {price1}")
     
-elif cupon >= 9250 and cupon <= 9270:
+elif coupon >= 9250 and coupon <= 9270:
     print("20% discount is allowed")
     print(f"Payable Amount with 20% Discount = {price2}")
 
-elif cupon >= 9270 and cupon <= 9290:
+elif coupon >= 9270 and coupon <= 9290:
     print("30% discount is allowed")
     print(f"Payable Amount with 30% Discount = {price3}")
 else:
