@@ -68,7 +68,7 @@ def battery_analyzer():
     if battery < 0 or battery >100:
         print("❌ Invalid Percentage Entered!")
     elif battery <= 10 and charging == "no":
-        print("\U0001F534 Battery Health is Critical. Charge immediately!")
+        print("🔴 Battery Health is Critical. Charge immediately!")
     elif battery <=10 and charging == "yes":
         print("⚡Charging Started Just In Time")
     elif battery >10 and battery <=30 and charging == "no":
