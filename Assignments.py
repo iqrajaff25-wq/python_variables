@@ -44,7 +44,7 @@ print(f"PERCENTAGE OF SAVINGS = {percentage_of_saving}%")
 
 
 
-#Assignment # 03
+#Assignment # 02
 #  Battery Health Analyzer
 #  Objective: To analyze phone battery status based on percentage and charging condition.
 
