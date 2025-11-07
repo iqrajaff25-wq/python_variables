@@ -62,18 +62,34 @@ print(f"PERCENTAGE OF SAVINGS = {percentage_of_saving}%")
 #  Battery > 90 and charging →  Battery Full – Unplug charger to save energy. 
 #  Otherwise →  Battery sufficient – all good!
 
+battery = int(input("Enter Battery's Current Percentage! (0-100): "))
+charging = input("Is the device charging? (yes/no): ").lower()
+def battery_analyzer():
+    if battery < 0 or battery >100:
+        print("❌ Invalid Percentage Entered!")
+    elif battery <= 10 and charging == "no":
+        print("\U0001F534 Battery Health is Critical. Charge immediately!")
+    elif battery <=10 and charging == "yes":
+        print("⚡Charging Started Just In Time")
+    elif battery >10 and battery <=30 and charging == "no":
+        print("🟠 Battery is low. Consider Charging Soon!")
+    elif battery >10 and battery <=30 and charging == "yes":
+        print("⚡ Battery chearging started just in time!")
+    elif battery >30 and battery <=60 and charging == "no":
+        print("🟡 Moderate usage allowed!")
+    elif battery >30 and battery <= 60 and charging =="yes":
+        print("⚡Battery is Sufficient, you can unplug soon!")
+    elif battery >60 and battery <=90 and charging =="no":
+        print("🟢 Battery sufficient")
+    elif battery >60 and battery <=90 and charging == "yes":
+        print("⚡Battery sufficient!")
+    elif battery >90 and battery <=100 and charging == "yes":
+        print("💯 Battery Full. Unplug the charger to save energy!")
+    else:
+        print("✅ Battery Sufficient. All Good!")
 
-def battery_analyzer()
-    battery = int(input("Enter Battery's Current Percentage! (0-100) "))
-    charging = input("Is the device charging? (yes/no): ").lower
-    if battery < 0 or battery >=100:
-        print("Invalid Percentage Entered!")
-    elif battery <= 10 and charging == no:
-        print("Battery Health is Critical. Charge immediately!")
-    elif battery<=10 and charging == yes:
-        print("Charging Started Just In Time")
-    elif battery>10 and battery<=30 and charging == no:
-        print("Battery is low. Consider Charging Soon!")
+battery_analyzer()
+
     
     
 
