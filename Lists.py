@@ -64,7 +64,7 @@ print(fruits, 'Last value is been removed by using pop()')
 del fruits[2]
 print(fruits, '3rd value is been removed from list by using del')
 
-# Replace an element according to index
+# Replace/Update an element according to index
 fruits[1]='muskmelon'
 print(fruits, 'An element replaced according to index')
 
