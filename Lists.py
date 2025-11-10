@@ -2,6 +2,7 @@
 # Lists can be categorized or typed based on what they contain or how they are used.
 
 # 01. Homogeneous Lists
+#======================
 # A homogeneous list contains elements of the same data type.
 numbers = [1,2,3,4,5,6,7]
 fruits = ['apple','date','orange','fig','mango']
@@ -11,12 +12,14 @@ print(fruits)
 
 
 # 02. Heterogeneous Lists
+#========================
 #A heterogeneous list contains different types of data.
 multi_data = ['Ali', 123, True, 3.54, [23,45]]
 # print(multi_data)
 
 
 # 03. Nested Lists (Lists within Lists)
+#======================================
 # A nested list means one or more lists inside another list.Commonly used for representing 2D data (like matrices, tables, grids).
 
 nested_list = [ [12,13,14,15], ['ali','Hero','Hamza','Sundas'], [3.4, 4.6, 1.2]]
@@ -25,8 +28,11 @@ nested_list = [ [12,13,14,15], ['ali','Hero','Hamza','Sundas'], [3.4, 4.6, 1.2]]
 
 
 # 04. Dynamic Lists
+#==================
 # All Python lists are dynamic, meaning they can grow or shrink in size during program execution.
 
+# ADDITION OF ELEMENTS IN LIST
+# ----------------------------
 
 # Appending a list
 fruits.append('appricot')
@@ -39,6 +45,12 @@ print(fruits, 'List Extended')
 #Insert an element
 fruits.insert(2, 'pineapple')
 print(fruits, 'Inserted an element at the second index')
+
+
+
+
+# REMOVAL OF ELEMENTS
+#-------------------
 
 #Removing an element
 fruits.remove('date')
@@ -56,7 +68,14 @@ print(fruits, '3rd value is been removed from list by using del')
 fruits[1]='muskmelon'
 print(fruits, 'An element replaced according to index')
 
-# Slicing
+
+
+
+
+# SLICING OF ELEMENTS FROM LIST
+#------------------------------
+
+
 print(fruits [1:4], 'Presenting 3 elements from 2nd to 4th positions')
 
     # Slicing from start
