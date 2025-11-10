@@ -14,6 +14,8 @@
 # 01_Built-in Functions
 # These are pre-defined in Python
     # print()     # Displays output
+    # append()    # Add elements in list
+    # remove()    # Remove an element from list
     # len()       # Returns length of a sequence
     # type()      # Returns the type of an object
     # range()     # Generates a sequence of numbers
