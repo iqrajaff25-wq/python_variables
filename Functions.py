@@ -2,14 +2,14 @@
 
 # Types of functions:
 
-# Built-in Functions
-# User-defined Functions
-# Lambda (Anonymous) Functions
-# Recursive Functions
-# Higher-order Functions
-# Generator Functions
-# Nested Functions
-# Decorator Functions
+# 01.Built-in Functions
+# 02.User-defined Functions
+# 03.Lambda (Anonymous) Functions
+# 04.Recursive Functions
+# 05.Higher-order Functions
+# 06.Generator Functions
+# 07.Nested Functions
+# 08.Decorator Functions
 
 # 01_Built-in Functions
 # These are pre-defined in Python
